@@ -1,0 +1,23 @@
+Request method:	GET
+Request URI:	https://www.purgomalum.com/service/json?text=this%20is%20some%20test%20input
+Proxy:			<none>
+Request params:	<none>
+Query params:	text=this is some test input
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Content-Type: application/json
+Access-Control-Allow-Origin: *
+X-Cloud-Trace-Context: 6cbcae4cfe4c2d0868438210596141e8
+Date: Mon, 16 Aug 2021 09:59:22 GMT
+Server: Google Frontend
+Content-Length: 36
+
+{
+    "result": "this is some test input"
+}
